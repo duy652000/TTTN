@@ -25,15 +25,20 @@
 									<thead>
 										<tr class="bg-primary">
 											<th>ID</th>
-                                            <th>Mã Vé</th>
+                                            <th>Mã Hóa Đơn</th>
+
+											<th>Mã Vé</th>											
                                             <th>Giá Vé</th>
-                                            <th>Số Vé</th>
+
+											<th>Mã Ghế</th>	
+											<th>Số Ghế</th>
+                                            
 											<th>Tên KH</th>
 											<th>SĐT</th>
                                             <th>Tên Phim</th>
                                             <td>Giờ Bắt Đầu</td>
                                             <td>Giờ Kết Thúc</td>										
-											<th>Số Ghế</th>
+											
                                             <th>Giờ Đặt</th>
                                             <th>Tên Phòng</th>
                                             
@@ -44,14 +49,78 @@
 										<tr>
 											<td>1</td>
 											<td>100003</td>
+											<th>MV00</th>											
 											<td>50.000vnđ</td>
-                                            <td>4</td>
+
+											<td>D01</td>
+											<td>01</td>
+                                        
 											<td>Nguyễn Văn Huê</td>
 											<td>09000000</td>
                                             <td>Ngày Cũ Của Tương Lai</td>
                                             <td>21:30</td>
                                             <td>23:30</td>                                         
-                                            <td>20</td>
+                                            
+                                            <td>10:03</td>
+											<td>D</td>
+                                            
+											
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>100003</td>
+											<th>MV01</th>											
+											<td>50.000vnđ</td>
+
+											<td>D02</td>
+											<td>02</td>
+                                 
+											<td>Nguyễn Văn Huê</td>
+											<td>09000000</td>
+                                            <td>Ngày Cũ Của Tương Lai</td>
+                                            <td>21:30</td>
+                                            <td>23:30</td>                                         
+                                            
+                                            <td>10:03</td>
+											<td>D</td>
+                                            
+											
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>100003</td>
+											<th>MV02</th>											
+											<td>50.000vnđ</td>
+
+											<td>D03</td>
+											<td>03</td>
+                                         
+											<td>Nguyễn Văn Huê</td>
+											<td>09000000</td>
+                                            <td>Ngày Cũ Của Tương Lai</td>
+                                            <td>21:30</td>
+                                            <td>23:30</td>                                         
+                                            
+                                            <td>10:03</td>
+											<td>D</td>
+                                            
+											
+										</tr>
+										<tr>
+											<td>4</td>
+											<td>100003</td>
+											<th>MV03</th>											
+											<td>50.000vnđ</td>
+
+											<td>D04</td>
+											<td>04</td>
+                                        
+											<td>Nguyễn Văn Huê</td>
+											<td>09000000</td>
+                                            <td>Ngày Cũ Của Tương Lai</td>
+                                            <td>21:30</td>
+                                            <td>23:30</td>                                         
+                                            
                                             <td>10:03</td>
 											<td>D</td>
                                             

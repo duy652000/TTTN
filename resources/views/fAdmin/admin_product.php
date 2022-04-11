@@ -38,7 +38,7 @@
 											<th>Quốc Gia</th>
 
 											<th>Thể Loại</th>
-											<th>Quản Lý</th>
+											<th width="13%" >Quản Lý</th>
 										</tr>
 									</thead>
 									<tbody>

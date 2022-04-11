@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<?php
 	include("feAdmin/lib/libr.php")//libary
 	?>
 </head>
+
 <body>
-	<?php
+<?php
 	include("feAdmin/lib/header.php");//header 
 	include("feAdmin/lib/sidebar.php");//sidebar
 	include("feAdmin/lib/row.php");//row
@@ -16,68 +18,77 @@
 			<div class="col-xs-12 col-md-12 col-lg-12">
 				
 				<div class="panel panel-primary">
-					<div class="panel-heading">Thêm sản phẩm</div>
+					<div class="panel-heading">Thêm Thông Tin Phim</div>
 					<div class="panel-body">
 						<form method="post" enctype="multipart/form-data">
 							<div class="row" style="margin-bottom:40px">
 								<div class="col-xs-8">
+
 									<div class="form-group" >
-										<label>Tên sản phẩm</label>
-										<input required type="text" name="name" class="form-control">
+										<label>Tên Phim</label>
+										<input required type="text" name="" class="form-control">
+									</div>
+
+									<div class="form-group" >
+										<label>Thời Lượng</label>
+										<input required type="number" name="" class="form-control">
+									</div>
+
+									<div class="form-group" >
+										<label>Ảnh Minh Họa</label>
+										<input id="img" type="file" name="" class="form-control hidden" onchange="changeImg(this)">
+					                    <img id="avatar" class="thumbnail" width="300px" src="img/iphone7-plus-black-select-2016.jpg">
 									</div>
 									<div class="form-group" >
-										<label>Giá sản phẩm</label>
-										<input required type="number" name="price" class="form-control">
+										<label>Ngôn Ngữ</label>
+										<input required type="text" name="" class="form-control">
 									</div>
 									<div class="form-group" >
-										<label>Ảnh sản phẩm</label>
-										<input required id="img" type="file" name="img" class="form-control hidden" onchange="changeImg(this)">
-					                    <img id="avatar" class="thumbnail" width="300px" src="img/new_seo-10-512.png">
+										<label>Ngày Phát Hành</label>
+										<input required type="date" name="" class="form-control">
 									</div>
 									<div class="form-group" >
-										<label>Phụ kiện</label>
-										<input required type="text" name="accessories" class="form-control">
+										<label>Quốc Gia</label>
+										<input required type="text" name="" class="form-control">
 									</div>
+
 									<div class="form-group" >
-										<label>Bảo hành</label>
-										<input required type="text" name="warranty" class="form-control">
+										<label>Ngày Chiếu</label>
+										<input required type="date" name="" class="form-control">
 									</div>
+
 									<div class="form-group" >
-										<label>Khuyến mãi</label>
-										<input required type="text" name="promotion" class="form-control">
+										<label>Giờ Bắt Đầu</label>
+										<input required type="text" name="" class="form-control">
 									</div>
+
 									<div class="form-group" >
-										<label>Tình trạng</label>
-										<input required type="text" name="condition" class="form-control">
+										<label>Giờ Kết Thúc</label>
+										<input required type="text" name="" class="form-control">
 									</div>
+							
 									<div class="form-group" >
-										<label>Trạng thái</label>
-										<select required name="status" class="form-control">
-											<option value="1">Còn hàng</option>
-											<option value="0">Hết hàng</option>
-					                    </select>
-									</div>
-									<div class="form-group" >
-										<label>Miêu tả</label>
+										<label>Mô Tả</label>
 										<textarea required name="description"></textarea>
 									</div>
+
 									<div class="form-group" >
-										<label>Danh mục</label>
-										<select required name="cate" class="form-control">
-											<option value="1">iPhone</option>
-											<option value="2">Samsung</option>
-											<option value="3">Nokia</option>
-											<option value="4">HTC</option>
-											<option value="5">LG</option>
-											<option value="6">Sony</option>
+										<label>Thể Loại</label>
+										<select required name="" class="form-control">
+											<option value="1">Kinh Dị</option>
+											<option value="2">Hành Động</option>
+											<option value="3">Kinh Dị</option>
+											<option value="4">Hành Động</option>
+											<option value="5">Kinh Dị</option>
+											<option value="6">Hành Động</option>
 					                    </select>
 									</div>
 									<div class="form-group" >
-										<label>Sản phẩm nổi bật</label><br>
-										Có: <input type="radio" name="featured" value="1">
-										Không: <input type="radio" checked name="featured" value="0">
+										<label>Phim Bom Tấn</label><br>
+										YES: <input type="radio" name="" value="1">
+										NO: <input type="radio" checked name="" value="0">
 									</div>
-									<input type="submit" name="submit" value="Thêm" class="btn btn-primary">
+									<input type="submit" name="" value="Thêm" class="btn btn-primary">								
 									<a href="#" class="btn btn-danger">Hủy bỏ</a>
 								</div>
 							</div>
